@@ -78,7 +78,7 @@ def responda(pergunta: str):
         return cadeia_praia.invoke({'query': pergunta})
     
     # Se a pergunta é sobre montanha, usa o Sr Montanha
-    return cadeia_monhatanha.invoke({'query': pergunta})
+    return cadeia_montanha.invoke({'query': pergunta})
 
 # Testa a função com uma pergunta sobre surf
 # "surfar" e "lugar quente" indica praia → será direcionado para Sra Praia
